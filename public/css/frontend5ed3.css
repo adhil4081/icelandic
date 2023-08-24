@@ -1,0 +1,363 @@
+
+.search_bar  {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #EEEEEE;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+#store_map {
+    border: 1px solid #DDDDDD;
+    height: 400px;
+    font-size: 12px;
+    width: 67%;
+    float: right;
+}
+#store_map .name {
+    font-weight:bold;
+}
+#store_map .custom_field_value {
+    margin-left:5px;
+}
+#store_map label { width: auto; display:inline; }
+#store_map img { max-width: none; }
+.addresses {
+    display: block;
+    height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+    width: 31%;
+}
+
+.addresses ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+
+}
+
+.addresses li {     
+    background: url("markers/map-pin-lightblue.png") no-repeat scroll 12px 17px transparent;
+    border-top: 1px dotted #DDDDDD;
+    clear: both;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 15px 5px;
+    min-height: 30px;
+    list-style: none;
+}
+.addresses li a  { 
+    width: 75%;
+    outline: medium none;
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.addresses li a:hover {
+    text-decoration: none;
+}
+.addresses li a .name {
+    color:#069;
+    font-weight:bold;
+}
+.addresses li a span  {
+	color:#333;
+}
+.custom_searches {
+    display: block;
+} 
+.custom_searches .custom_search_label {
+    width: 200px;
+    display: inline-block;
+}
+.custom_searches select,
+.main_search_bar input {
+    width:75%;
+}
+
+.main_search_label {
+    display: inline-block;
+    width: 52%;
+    vertical-align: middle;
+    font-size: 12px;
+}
+.search_filters .search_filter {
+    float: left;
+    margin-right: 20px;
+    width: 154px;
+    padding:2px 0;
+}
+
+
+.search_bar button {
+    background-color:#137cc7;
+    border-radius:0px;
+    border:1px solid #137cc7;
+    display:inline-block;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    padding:4px 5px;
+    text-decoration:none;
+    margin-left:10px;
+}
+.search_bar button:hover {
+    background-color:#639ec8;
+    border:1px solid #639ec8;
+}
+
+.search_bar .main_search_bar {
+    width:52%;
+    float:left;
+}
+.search_bar .search_within_distance {
+    float: left;
+    text-align: right;
+}
+.search_bar .search_limit {
+    float: left;
+    text-align: right;
+    min-width:22%;
+}
+
+.search_limit_label, .main_search_label, .distance_label  {
+    display: inline-block;
+}
+.search_bar .main_search_bar input,
+.search_bar .search_within_distance select,
+.search_bar .search_limit select {
+    margin-bottom:0;
+    outline:none;
+}
+.distance {
+    color: #999999;
+    float: left;
+    font-size: 11px;
+    width: 52px;
+    height: 35px;
+    margin-top:30px;
+}
+.search_filters {
+    border-top: 1px solid #E5E5E5;
+    clear: both;
+    margin: 10px 0 0;
+    padding-top: 10px;
+}
+.header_html {
+    margin-bottom:10px;
+}
+.footer_html {
+    margin-top:15px;
+}
+.no_stores_found {
+    margin: 5px 0 0 40px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.applicable_filter {
+    background: url("markers/checkmark.png") no-repeat scroll 0 1px transparent;
+    padding:2px 10px 0 16px;
+    float:left;
+}
+.directions {
+    clear:both;
+    padding-top:5px;
+}
+.addresses .store_website, .store_website_container,
+.addresses .directions {
+    /*
+    clear: both;
+    float: right;
+    margin-top: -15px;
+    padding-top: 2px;
+    width: 177px;*/
+    margin-left: 52px;
+}
+.addresses .store_website li,
+.addresses .directions li {
+    width: auto;
+}
+
+#submitBtn {
+    display: inline-block;
+    float: right;
+    padding: 12px 22px;
+    margin-top: 32px;
+}
+.gm_popup .store_website_container {
+    margin: 0;
+}
+.website_text_span {
+    font-weight: bold;
+}
+.store_website_container a {
+    margin: 0 !important;
+}
+.store_website_container a:hover {
+    text-decoration: underline !important;
+    color: #0AA5DF;
+}
+
+.directions a:hover{
+	text-decoration:underline;
+}
+
+/* ============== DIRECTIONS ==============  */
+
+#directions_text a.return_to_results  {
+	margin-bottom:15px;
+}
+#directions_text #direction_destination {
+   background: url("markers/map-pin-black.png") no-repeat scroll 7px 13px transparent;
+    border-bottom: 1px dotted #DDDDDD;
+    color: #333333;
+    font-size: 12px;
+    padding: 10px 0 10px 40px;
+}
+#directions_text #direction_destination .name {
+	font-weight:bold;
+}
+#directions_text .directions_step	{
+    border-bottom: 1px dotted #DDDDDD;
+    color: #333333;
+    font-size: 11px;
+    padding: 10px 10px 10px 0px;
+}
+#directions_steps .directions_step_distance {
+	float:right;
+	color:#999;
+}
+#directions_text {
+    display: block;
+    height: 400px;
+    overflow: hidden;
+    padding-right: 7px;
+    width: 31%;
+}	
+#directions_steps {
+    height: 72%;
+    overflow-y: auto;
+}
+
+#directions_steps .directions_instructions {
+	float:left;
+	width:175px;
+}
+#directions_steps .directions_step_id {
+	width:20px;
+	float:left;
+}
+
+/*Responsive Maps*/
+
+@media (max-width: 800px) {
+    .search_bar .main_search_bar {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .main_search_label {
+        width: auto;
+        margin-right: 10px;
+        padding-top: 7px;
+    }
+    .main_search_bar input {
+        width: 100%;
+    }
+
+    .search_bar .search_within_distance, .search_bar .search_limit {
+        text-align: left;
+        margin-right: 15px;
+    }
+
+    .search_within_distance, .search_bar .search_limit {
+        min-width: 100%;
+    }
+    #directions_steps .directions_instructions {
+        width: auto;
+        float: none;
+    }
+    .addresses li a {
+        width: 120px;
+        float: none;
+    }
+    .addresses .directions {
+        float: none;
+        margin-top: 0;
+        width: auto;
+    }
+    #directions_steps .directions_step_distance {
+        display: block;
+        float: none;
+    }
+    .directions_instructions {
+        display: inline;
+        float: none;
+        width: auto;
+    }
+    .store_website a {
+        word-break:break-all;
+    }
+}
+
+@media (max-width: 650px) {
+    #store_map {
+        width: 100%;
+        float: none;
+    }
+    .addresses {
+        width: 100%;
+        height: auto !important;
+    }
+    .addresses li a {
+        width: auto;
+        display: inline-block;
+    }
+    .addresses .directions {
+        float: none;
+    }
+    .addresses .directions a {
+        margin-bottom: 0;
+    }
+    #directions_text {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #directions_steps .directions_instructions {
+        float: left;
+        width: 80%;
+    }
+    #directions_steps .directions_step_distance {
+        float: right;
+    }
+}
+@media (max-width: 767px) {
+    .search_bar .main_search_bar {
+        width: auto;
+        float: none;
+    }
+    .main_search_label {
+        margin-bottom: 5px;
+    }
+    #submitBtn {
+        margin-top: 0px;
+    }
+    .search_bar button {
+        height: auto;
+    width: auto;
+    display: block;
+    margin: 0;
+    clear: both;
+    }
+    .search_bar .search_within_distance, .search_bar .search_limit {
+        margin-bottom: 10px;
+    }
+    .search_filters .search_filter {
+        width: 50%;
+        margin: 0;
+    }
+    #store_map {
+        height: 250px !important;
+    }
+}
+
