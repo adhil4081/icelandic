@@ -9,7 +9,7 @@
     <div class="dropdown_container" data-dropdown="mobile_menu">
         <div class="dropdown">
             <ul class="menu" id="mobile_menu">
-                <li data-mobile-dropdown-rel="home"> <a data-no-instant href="index.pho" class="parent-link--false">
+                <li data-mobile-dropdown-rel="home"> <a data-no-instant href="" class="parent-link--false">
             Home</a></li>
                 <li data-mobile-dropdown-rel="our-products"> <a data-no-instant href="our-products.php" class="parent-link--true">
             Our Products</a></li>
